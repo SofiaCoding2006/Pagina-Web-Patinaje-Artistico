@@ -60,23 +60,31 @@ nav .icon{
     margin:50px;
     padding: 70px 10px 10px 10px;
 }
-
-.tipos p{
-    margin:50px;
-    padding: 50px;
-    
+.texto{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.titu{
+    text-align: center;
 }
 
 .subtitulo h1{
+    text-align: center;
     margin: 50px;
     font-size: 20px;
 }
-
+.h1{
+    margin-left: -930px;
+}
 .sub1 h1{
     margin: 50px;
     font-size: 20px;
 }
 
+.text2{
+    margin-left: 300px;
+    margin-right: 300px;
+}
 .subtitulo p{
     margin: 50px;
     font-size: 20px;
@@ -97,7 +105,7 @@ hr{
     margin: 15px;
     padding: -15px;
 }
-.footer{
+.footer {
     position: relative;
     width: 100%;
     background: rgb(191, 149, 255);
@@ -106,51 +114,22 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
-.social-icon{
+.social-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     margin: 10px 5px;
-    flex-wrap: wrap;
 }
-.icon-elem{
+.icon-elem {
     list-style: none;
 }
-.icon{
-    color: rgb(9, 9, 9);
+
+.icon {
+    color: white;
     font-size: 32px;
     display: inline-block;
     margin: 0 10px;
     transition: 0.5s;
 }
-.icon:hover{
-    transform: translateY(-10px);
-}
-.menu{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;
-}
-.menu-elem{
-    list-style: none;
-}
-.menu-icon{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    display: inline-block;
-    text-decoration: none;
-    margin: 5px 10px;
-    opacity: 0.5;
-    transition: 0.3s;
-}
-.menu-icon:hover{
-    opacity: 1;
-}
-
-

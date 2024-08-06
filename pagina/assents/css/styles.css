@@ -74,9 +74,9 @@ nav .icon{
 }
 
 .historia img{
-    width: 450px;
-    height: 400px;
-    margin: -300px 20px 20px 600px;
+    width: 700px;
+    height: 500px;
+    margin: -200px 20px 101px 250px;
 }
 .historia h1{
     margin-right: 25px;
@@ -86,4 +86,31 @@ nav .icon{
 .historia p{
     margin-right: 25px;
     font-size: 20px;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    background: rgb(191, 149, 255);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+}
+.icon-elem {
+    list-style: none;
+}
+.icon {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
 }
